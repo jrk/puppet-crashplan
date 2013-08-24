@@ -4,7 +4,7 @@
 #
 #   include vitaminr
 
-class crashplan {
+class vitaminr {
   package { 'VitaminR':
     source   => 'http://www.publicspace.net/download/Vitamin.dmg',
     provider => appdmg,
