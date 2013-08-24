@@ -1,13 +1,11 @@
-# Crashplan Puppet Module for Boxen
+# Vitamin-R 2 Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/boxen/puppet-crashplan.png?branch=master)](https://travis-ci.org/boxen/puppet-crashplan)
-
-Install [Crashplan](http://www.crashplan.com/) on your Mac.
+Install [Vitamin-R](http://www.publicspace.net/Vitamin-R/) on your Mac.
 
 ## Usage
 
 ```puppet
-include crashplan
+include vitaminr
 ```
 
 ## Required Puppet Modules
