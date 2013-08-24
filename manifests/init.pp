@@ -1,12 +1,12 @@
-# Public: Install CrashPlan.app to /Applications.
+# Public: Install Vitamin-R 2.app to /Applications.
 #
 # Examples
 #
-#   include crashplan
+#   include vitaminr
 
 class crashplan {
-  package { 'Crashplan':
-    source   => 'http://download.crashplan.com/installs/mac/install/CrashPlan/CrashPlan_3.5.3_Mac.dmg',
+  package { 'VitaminR':
+    source   => 'http://www.publicspace.net/download/Vitamin.dmg',
     provider => pkgdmg,
   }
 }
