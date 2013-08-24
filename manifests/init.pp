@@ -7,6 +7,6 @@
 class crashplan {
   package { 'VitaminR':
     source   => 'http://www.publicspace.net/download/Vitamin.dmg',
-    provider => pkgdmg,
+    provider => appdmg,
   }
 }
